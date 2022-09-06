@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lexend+Deca&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+html{
+	min-height: 100%;
+	background-image: url(images/melfred.png);
+	background-size: cover;
+	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.65);
+}
+header{
+	line-height: 50px;
+	word-spacing: 5px;
+	text-align: right;
+	margin-right: 100px;
+
+	
+}
+.nametop{
+	float: left;
+	margin-left: 50px;
+	margin-top: 0;
+	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: .8px;
+}
+body{
+	margin-left: 10px;
+    margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+	
+}
+	.sentence{
+		font-size: 13px;
+	}
+	.name{
+	font-family: 'Lexend Deca', sans-serif;
+	
+}
+	.namecolor{
+		color:#FFDB58;	
+	}
+	.nav1,.nav2,.nav3{
+	color: white;
+
+}
+footer{
+	text-align: center;
+	color: black;
+	word-spacing: .5px;
+	
+
+}
+	.fa {
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20%;
+	letter-spacing: 1px;
+}
+a.fa:hover {
+	background-color: rgba(0, 0, 0, 0.65);
+	color: #FFDB58;
+	
+}
+	
+a.fa{
+	
+	padding: 10px;
+	width: 50px;
+	
+}
+	
+
+i.fa:hover {
+	background-color: white;
+	opacity: 0.7;
+	color: black;
+}
+	.fa-facebook {
+	background: none;
+	color: rgb(250, 250, 252);
+	
+}
+	.fa-instagram {
+		background: none;
+		color: white;
+		
+	
+}
+	.fa-twitter {
+	background: none;
+	color: rgb(255, 255, 255);
+}
+i.fa{
+	font-family: 'Comfortaa', cursive;
+}
+	.fa-home1,.fa-info1,.fa-gallery1,.fa-contact1{
+	background-color: rgb(0, 83, 83, .4);
+	width: 100px; 
+	padding: 12px ; 
+	transition: all 0.3s ease;
+	border-radius: 2rem;
+	
+	
+}
+
+
+	.contact{
+	margin-left: 50px;
+	line-height: 10px;
+}
+
+
+section{
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 450px;
+	width: 1250px;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 40px;
+	border-radius: 15px;
+	border-style: double;
+	border-color:#FFDB58;
+	padding-bottom: 40px;
+}
+	.infohighlight{
+	color: #FFDB58;
+	}
+	.infopic{
+		height: 250px;
+		width: 250px;
+		float: left;
+		margin-left: 130px;
+		border-style: outset;
+		border-radius: 50%;
+		border-width: 6px;
+	}
+	.infopic:hover{
+		opacity: 50%;
+
+	}
+h5{
+	line-height: .5px;
+}
+	.infosentence{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		text-align: left;
+		margin-left: 500px;
+	}
+	.spanname{
+		color: #FFDB58;
+	}
+	.images{
+		size: 20px;
+	}
+	.img{
+		width: 150px;
+		height: 200px;
+		padding: 0px;
+		border-radius: 8px;
+		
+	}
+	.img:hover{
+		opacity: .5;
+	}
+	
+	.img2{
+		float: right;
+		width: 309px;
+		height: 339px;
+		margin-right: 30px;
+
+	}
+	.img3{
+		float: left;
+		width: 550px;
+		height: 550px;
+		margin-left: 30px;
+	
+	}
+	
+	.img5{
+		width: 309px;
+		height: 339px;
+		
+	
+	}
+	.img6{
+		float: right;
+		margin-left: 170px;
+		margin-top: 139px;
+		position: absolute;
+		
+	}
+	.img7{
+		float: right;
+		margin-left: 10px;
+		margin-top: 139px;
+		position: absolute;
+	}
+	.myworks{
+		padding-bottom: 270px;
+	}
+	.icon{
+		margin-left: 80px;
+		height: 60px;
+		padding-top: 20px;
+		padding-bottom: 5px;
+		letter-spacing: 5px;
+		
+	}
+	.icon:hover{
+		opacity: .8;
+		color: #FFDB58;
+
+	}
+	
+	.iconcontact{
+		width: 10px;
+	}
+	.contactbg{
+		max-width: 500px;
+		background-color: rgba(0, 0, 0, 0.25);
+		margin-left: 420px;
+		border-radius: 18px;
+		border-style: groove;
+	}
+h1.contactme{
+	text-align: center;
+	font-family: 'Lexend Deca', sans-serif;
+	
+	}
+	.me{
+		color: #FFDB58;
+	}
